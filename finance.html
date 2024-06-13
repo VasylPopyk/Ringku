@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Chart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="media/ringku.png" type="image/x-icon">
+</head>
+<body>
+    <div class="polotno"></div>
+    <div class="container">
+        <header class="mobile_header">
+            <div class="mobile_header_title">
+                <img src="media/mobile/logo.png" alt="">
+                <h3>Ringku</h3> 
+            </div>
+            <div class="mobile_header_burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="navbar_content">
+                <div class="navbar_menu">
+                    <div class="navbar_menu_title">
+                        <img src="media/ringku.png" alt="">
+                        <h1>Ringku</h1>
+                    </div>
+                    <div class="navbar_menu_burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="navbar_options">
+                    <div class="navbar_options_item">
+                        <a href="index.html">
+                            <img src="media/chat.png" alt="">
+                            <p>My Wallet</p>
+                        </a>
+                        <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item">
+                        <a href="card.html">
+                            <img src="media/chat.png" alt="">
+                            <p>My Card</p>
+                        </a>
+                         <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item active">
+                        <a href="finance.html">
+                            <img src="media/chat.png" alt="">
+                            <p>Finance Chart</p>
+                        </a>
+                         <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item">
+                        <a href="transactions.html">
+                            <img src="media/chat.png" alt="">
+                            <p>Recent transactions</p>
+                        </a>
+                        <div class="navbar_notifications">12</div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar_settings">
+                <div class="navbar_settings_item">
+                    <img src="media/settings.png" alt="">
+                    <p>Settings</p>
+                </div>
+                <span></span>
+                <div class="navbar_settings_item">
+                    <img src="media/user.png" alt="">
+                    <p>Vasyl Popyk</p>
+                </div>
+            </div>
+        </nav>
+        <main class="content-finance">
+            <div class="content_page_navigation">
+                <div>
+                    <button id="default_screen"><img src="media/desktop.png" alt=""></button>
+                    <button id="full_screen"><img src="media/fullscreen.png" alt=""></button>
+                </div>
+                <button><img src="media/info.png" alt=""></button>
+            </div>
+            <div class="content_page_card">
+                <h1>Finance Chart</h1>
+                <p>Keep track your financial plan</p>
+            </div>
+            <div class="info_popup">
+                <div class="popup_data">
+                    <img src="media/info-icon.png" alt="">
+                    <p>Please remember to fill that data that required for your debit card</p>
+                </div>
+                <a href="" class="popup_button">Got it</a>
+            </div>
+            <div class="content_schedule">
+                <nav class="content_schedule_menu">
+                    <h3>Statistic</h3>
+                    <div class="content_schedule_menu_date">
+                        <div class="content_schedule_menu_date_item">
+                            <div class="content_schedule_menu_date_item_front">
+                                <p>Income Chart</p>
+                                <div class="array"><img src="media/array-2.png" alt=""></div>
+                            </div>
+                            <div class="content_schedule_menu_date_item_content">
+                                <a href="" class="content_schedule_menu_date_item_content_item">a</a>
+                            </div>
+                        </div>
+                        <div class="content_schedule_menu_date_item">
+                            <div class="content_schedule_menu_date_item_front">
+                                <p>This Year</p>
+                                <div class="array"><img src="media/array-2.png" alt=""></div>
+                            </div>
+                            <div class="content_schedule_menu_date_item_content">
+                                <a href="" class="content_schedule_menu_date_item_content_item">a</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="schedule chart-container">
+                    <svg class="chart" viewBox="0 0 800 400" preserveAspectRatio="none">
+                        <path class="line" d="M0,350 L66,150 L133,350 L200,50 L266,250 L333,150 L400,300 L466,50 L533,350 L600,200 L666,250 L733,150 L800,200"></path>
+                        <text x="0" y="390" class="text">Jan</text>
+                        <text x="66" y="390" class="text">Feb</text>
+                        <text x="133" y="390" class="text">Mar</text>
+                        <text x="200" y="390" class="text">Apr</text>
+                        <text x="266" y="390" class="text">May</text>
+                        <text x="333" y="390" class="text">Jun</text>
+                        <text x="400" y="390" class="text">Jul</text>
+                        <text x="466" y="390" class="text">Aug</text>
+                        <text x="533" y="390" class="text">Sep</text>
+                        <text x="600" y="390" class="text">Oct</text>
+                        <text x="666" y="390" class="text">Nov</text>
+                        <text x="733" y="390" class="text">Dec</text>
+                        <text x="5" y="50" class="text">$3000</text>
+                        <text x="5" y="100" class="text">$2500</text>
+                        <text x="5" y="150" class="text">$2000</text>
+                        <text x="5" y="200" class="text">$1500</text>
+                        <text x="5" y="250" class="text">$1000</text>
+                        <text x="5" y="300" class="text">$500</text>
+                    </svg>
+                </div>
+            </div>
+            <div class="content_finances">
+                <div class="content_finances_item">
+                    <img src="media/income.png" alt="">
+                    <div class="content_finances_item_info">
+                        <p>Lifetime Income</p>
+                        <h4>$40,728</h4>
+                    </div>
+                </div>
+                <div class="content_finances_item">
+                    <img src="media/outcome.png" alt="">
+                    <div class="content_finances_item_info">
+                        <p>Lifetime Outcome</p>
+                        <h4>$30,239</h4>
+                    </div>
+                </div>
+                <div class="content_finances_item">
+                    <img src="media/bonus-income.png" alt="">
+                    <div class="content_finances_item_info">
+                        <p>Bonus Income</p>
+                        <h4>$2,490</h4>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/frontend.js"></script>
+</body>
+</html>

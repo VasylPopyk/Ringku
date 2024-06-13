@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wallet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="media/ringku.png" type="image/x-icon">
+</head>
+<body>
+    <div class="polotno"></div>
+    <div class="container">
+        <header class="mobile_header">
+            <div class="mobile_header_title">
+                <img src="media/mobile/logo.png" alt="">
+                <h3>Ringku</h3> 
+            </div>
+            <div class="mobile_header_burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="navbar_content">
+                <div class="navbar_menu">
+                    <div class="navbar_menu_title">
+                        <img src="media/ringku.png" alt="">
+                        <h1>Ringku</h1>
+                    </div>
+                    <div class="navbar_menu_burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="navbar_options">
+                    <div class="navbar_options_item active">
+                        <a href="index.html">
+                            <img src="media/chat.png" alt="">
+                            <p>My Wallet</p>
+                        </a>
+                        <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item">
+                        <a href="card.html">
+                            <img src="media/chat.png" alt="">
+                            <p>My Card</p>
+                        </a>
+                         <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item">
+                        <a href="finance.html">
+                            <img src="media/chat.png" alt="">
+                            <p>Finance Chart</p>
+                        </a>
+                         <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item">
+                        <a href="transactions.html">
+                            <img src="media/chat.png" alt="">
+                            <p>Recent transactions</p>
+                        </a>
+                        <div class="navbar_notifications">12</div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar_settings">
+                <div class="navbar_settings_item">
+                    <img src="media/settings.png" alt="">
+                    <p>Settings</p>
+                </div>
+                <span></span>
+                <div class="navbar_settings_item">
+                    <img src="media/user.png" alt="">
+                    <p>Vasyl Popyk</p>
+                </div>
+            </div>
+        </nav>
+        <main class="content-wallet">
+            <div class="content_page">
+                <div class="content_page_navigation">
+                    <div>
+                        <button id="default_screen"><img src="media/desktop.png" alt=""></button>
+                        <button id="full_screen"><img src="media/fullscreen.png" alt=""></button>
+                    </div>
+                    <button><img src="media/info.png" alt=""></button>
+                </div>
+                
+                <div class="content_page_wallet">
+                    <h1>My Wallet</h1>
+                    <p>Keep track your financial plan</p>
+                </div>
+                <div class="content_page_block">
+                    <div class="content_page_block_finances">
+                        <div class="content_page_block_finances_item">
+                            <div>
+                                <div>
+                                    <img src="media/👋.png" alt="">
+                                    <p>Hi Vasyl!</p>
+                                </div>
+                                <button class="options">
+                                    <img src="media/more-menu.png" alt="">
+                                </button>
+                            </div>
+                            <h3>$124,543</h3>
+                        </div>
+                        <div class="content_page_block_finances_item_button">
+                            <img src="media/send.png" alt="">
+                            <h3>Send a payment</h3>
+                        </div>
+                        <div class="content_page_block_finances_item_button">
+                            <img src="media/request.png" alt="">
+                            <h3>Request a payment</h3>
+                        </div>
+                    </div>
+                    <div class="content_page_block_options">
+                        <div class="content_page_block_options_item">
+                            <div class="content_page_block_options_item_head">
+                                <h1><img src="media/emergency.png" alt="">Emergency fund</h1>
+                                <p>Last Paid on August 28, 2024</p>
+                            </div>
+                            <div class="content_page_block_options_item_progress">
+                                <div class="content_page_block_options_item_progress_info">
+                                    <div class="content_page_block_options_item_progress_info_price">
+                                        <h2 class="content_page_block_options_item_progress_info_price_dol">$300</h2>
+                                        <h4>/1000</h4>
+                                    </div>
+                                    <div class="content_page_block_options_item_progress_info_percent">30%</div>
+                                </div>
+                                <div class="content_page_block_options_item_progress_bar" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                        <div class="content_page_block_options_item">
+                            <div class="content_page_block_options_item_head">
+                                <h1><img src="media/travel.png" alt="">Travel Plan</h1>
+                                <p>Last Paid on June 01, 2024</p>
+                            </div>
+                            <div class="content_page_block_options_item_progress">
+                                <div class="content_page_block_options_item_progress_info">
+                                    <div class="content_page_block_options_item_progress_info_price">
+                                        <h2 class="content_page_block_options_item_progress_info_price_dol">$10000</h2>
+                                        <h4>/20000</h4>
+                                    </div>
+                                    <div class="content_page_block_options_item_progress_info_percent">50%</div>
+                                </div>
+                                <div class="content_page_block_options_item_progress_bar" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div class="content_page_block_options_item">
+                            <div class="content_page_block_options_item_head">
+                                <h1><img src="media/education.png" alt="">Education</h1>
+                                <p>Last Paid on May 14, 2024</p>
+                            </div>
+                            <div class="content_page_block_options_item_progress">
+                                <div class="content_page_block_options_item_progress_info">
+                                    <div class="content_page_block_options_item_progress_info_price">
+                                        <h2 class="content_page_block_options_item_progress_info_price_dol">$7000</h2>
+                                        <h4>/10000</h4>
+                                    </div>
+                                    <div class="content_page_block_options_item_progress_info_percent">70%</div>
+                                </div>
+                                <div class="content_page_block_options_item_progress_bar" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="content_page_block_options_item">
+                            <div class="content_page_block_options_item_head">
+                                <h1><img src="media/food_and_groceries.png" alt="">Foods and Groceries</h1>
+                                <p>Last Paid on August 28, 2024</p>
+                            </div>
+                            <div class="content_page_block_options_item_progress">
+                                <div class="content_page_block_options_item_progress_info">
+                                    <div class="content_page_block_options_item_progress_info_price">
+                                        <h2 class="content_page_block_options_item_progress_info_price_dol">$300</h2>
+                                        <h4>/1000</h4>
+                                    </div>
+                                    <div class="content_page_block_options_item_progress_info_percent">30%</div>
+                                </div>
+                                <div class="content_page_block_options_item_progress_bar" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                        <div class="content_page_block_options_item">
+                            <div class="content_page_block_options_item_head">
+                                <h1><img src="media/repair.png" alt="">Repair Vehicle</h1>
+                                <p>Last Paid on August 01, 2024</p>
+                            </div>
+                            <div class="content_page_block_options_item_progress">
+                                <div class="content_page_block_options_item_progress_info">
+                                    <div class="content_page_block_options_item_progress_info_price">
+                                        <h2 class="content_page_block_options_item_progress_info_price_dol">$900</h2>
+                                        <h4>/1000</h4>
+                                    </div>
+                                    <div class="content_page_block_options_item_progress_info_percent">90%</div>
+                                </div>
+                                <div class="content_page_block_options_item_progress_bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="content_page_block_options_item">
+                            <div class="content_page_block_options_item_head">
+                                <h1><img src="media/donation.png" alt="">Donation</h1>
+                                <p>Last Paid on August 20, 2024</p>
+                            </div>
+                            <div class="content_page_block_options_item_progress">
+                                <div class="content_page_block_options_item_progress_info">
+                                    <div class="content_page_block_options_item_progress_info_price">
+                                        <h2 class="content_page_block_options_item_progress_info_price_dol">$200</h2>
+                                        <h4>/1000</h4>
+                                    </div>
+                                    <div class="content_page_block_options_item_progress_info_percent">20%</div>
+                                </div>
+                                <div class="content_page_block_options_item_progress_bar" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_page_block_options_wallet">
+                        <button>
+                            <img src="media/plus.png" alt="">
+                        </button>
+                        <h3>Create New Wallet</h3>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div id="sendPaymentPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Send a Payment</h2>
+            <form id="sendPaymentForm">
+                <label for="recipientAddress">Recipient Address:</label>
+                <input type="text" id="recipientAddress" name="recipientAddress" required>
+                
+                <label for="senderPassword">Your Password:</label>
+                <input type="password" id="senderPassword" name="senderPassword" required>
+                
+                <button type="submit">Send Payment</button>
+            </form>
+            <button id="switchToFund">Send to Fund</button>
+        </div>
+    </div>
+    <div id="sendToFundPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Send to Fund</h2>
+            <form id="sendToFundForm">
+                <label for="fundName">Select Fund:</label>
+                <select id="fundName" name="fundName">
+                    <option value="emergency">Emergency Fund</option>
+                    <option value="retirement">Retirement Fund</option>
+                    <option value="investment">Investment Fund</option>
+                </select>
+                
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+                
+                <label for="fundPassword">Your Password:</label>
+                <input type="password" id="fundPassword" name="fundPassword" required>
+                
+                <button type="submit">Send to Fund</button>
+            </form>
+        </div>
+    </div>
+    <div id="requestPaymentPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Request a Payment</h2>
+            <form id="requestPaymentForm">
+                <label for="requestEmail">Requestor's Email:</label>
+                <input type="email" id="requestEmail" name="requestEmail" required>
+                
+                <label for="requestPassword">Your Password:</label>
+                <input type="password" id="requestPassword" name="requestPassword" required>
+                
+                <button type="submit">Request Payment</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/frontend.js"></script>
+</body>
+</html>

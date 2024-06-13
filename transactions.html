@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="media/ringku.png" type="image/x-icon">
+</head>
+<body>
+    <div class="polotno"></div>
+    <div class="container">
+        <header class="mobile_header">
+            <div class="mobile_header_title">
+                <img src="media/mobile/logo.png" alt="">
+                <h3>Ringku</h3> 
+            </div>
+            <div class="mobile_header_burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="navbar_content">
+                <div class="navbar_menu">
+                    <div class="navbar_menu_title">
+                        <img src="media/ringku.png" alt="">
+                        <h1>Ringku</h1>
+                    </div>
+                    <div class="navbar_menu_burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="navbar_options">
+                    <div class="navbar_options_item">
+                        <a href="index.html">
+                            <img src="media/chat.png" alt="">
+                            <p>My Wallet</p>
+                        </a>
+                        <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item">
+                        <a href="card.html">
+                            <img src="media/chat.png" alt="">
+                            <p>My Card</p>
+                        </a>
+                         <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item">
+                        <a href="finance.html">
+                            <img src="media/chat.png" alt="">
+                            <p>Finance Chart</p>
+                        </a>
+                         <!--<div class="navbar_notifications"></div>-->
+                    </div>
+                    <div class="navbar_options_item active">
+                        <a href="transactions.html">
+                            <img src="media/chat.png" alt="">
+                            <p>Recent transactions</p>
+                        </a>
+                        <div class="navbar_notifications">12</div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar_settings">
+                <div class="navbar_settings_item">
+                    <img src="media/settings.png" alt="">
+                    <p>Settings</p>
+                </div>
+                <span></span>
+                <div class="navbar_settings_item">
+                    <img src="media/user.png" alt="">
+                    <p>Vasyl Popyk</p>
+                </div>
+            </div>
+        </nav>
+        <main class="content-transactions">
+            <div class="content_page">
+                <div class="content_page_navigation">
+                    <div>
+                        <button id="default_screen"><img src="media/desktop.png" alt=""></button>
+                        <button id="full_screen"><img src="media/fullscreen.png" alt=""></button>
+                    </div>
+                    <button><img src="media/info.png" alt=""></button>
+                </div>
+                
+                <div class="content_page_transactions">
+                    <h1>Recent Transactions</h1>
+                    <form action="" class="transactions_search" id="transactions">
+                        <input type="text" placeholder="Search">
+                        <button type="submit">
+                            <img src="media/search.png" alt="">
+                        </button>
+                    </form>
+                </div>
+                <div class="content_page_content">
+                    <div class="content_page_content_table">
+                        <table class="content_page_content_table_text">
+                            <thead>
+                                <tr>
+                                    <th>Transactions ID</th>
+                                    <th>Name</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>962296152</td>
+                                    <td>Sherman Blankenship</td>
+                                    <td>08 Jan, 2022</td>
+                                    <td>Pending</td>
+                                    <td class="increase">$217.90</td>
+                                </tr>
+                                <tr>
+                                    <td>829892537</td>
+                                    <td>Claudio Barrera</td>
+                                    <td>06 Jan, 2022</td>
+                                    <td>Completed</td>
+                                    <td class="increase">$329.90</td>
+                                </tr>
+                                <tr>
+                                    <td>741560657</td>
+                                    <td>Clifton Daniel</td>
+                                    <td>03 Jan, 2022</td>
+                                    <td>Completed</td>
+                                    <td class="decrease">-$549.90</td>
+                                </tr>
+                                <tr>
+                                    <td>529040347</td>
+                                    <td>Curt Boyer</td>
+                                    <td>01 Jan, 2022</td>
+                                    <td>Completed</td>
+                                    <td class="decrease">-$238.90</td>
+                                </tr>
+                                <tr>
+                                    <td>398078341</td>
+                                    <td>Jeff Proctor</td>
+                                    <td>31 Dec, 2021</td>
+                                    <td>Completed</td>
+                                    <td class="decrease">-$283.90</td>
+                                </tr>
+                                <tr>
+                                    <td>197401837</td>
+                                    <td>Rodger Fritz</td>
+                                    <td>24 Dec, 2021</td>
+                                    <td>Completed</td>
+                                    <td class="increase">$237.90</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button>Download the Excel File</button>
+                    </div>
+                    <nav class="content_page_content_pages">
+                        <div class="content_page_content_pages_item_o_pages">
+                            <p>Items per page: </p>
+                            <div class="content_page_content_pages_item_o_pages_list">
+                                <div class="content_page_content_pages_item_o_pages_list_front">
+                                    <p>10</p>
+                                    <img src="media/arrow-dropdown.png" alt="">
+                                </div>
+                                <div class="content_page_content_pages_item_o_pages_list_items">
+                                    <div class="content_page_content_pages_item_o_pages_list_item">1</div>
+                                    <div class="content_page_content_pages_item_o_pages_list_item">2</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_page_content_pages_items">
+                            <span>1-10</span> of <span>23</span>
+                        </div>
+                        <div class="content_page_content_pages_nav">
+                            <button><img src="media/double-left-arr.png" alt=""></button>
+                            <button><img src="media/left-arr.png" alt=""></button>
+                            <button><img src="media/right-arr.png" alt=""></button>
+                            <button><img src="media/double-right-arr.png" alt=""></button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/frontend.js"></script>
+</body>
+</html>
